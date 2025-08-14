@@ -84,7 +84,10 @@ class WordPressSecurityTester:
             '/wp-admin/',
             'wp-json',
             'wordpress'
-        ]
+             '8080'
+            'cpanel'
+ ]
+
         
         try:
             response = self.session.get(self.target_url)
